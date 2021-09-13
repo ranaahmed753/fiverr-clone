@@ -1,0 +1,127 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  flex: 0.4;
+}
+
+.sidebar__top {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-top: 20px;
+  padding: 15px;
+  flex: 1;
+}
+
+.sidebarTop__options {
+  display: flex;
+  align-items: center;
+  flex: 0.3;
+}
+
+.sidebarTopOptions__left {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.sidebarTopOptions__left > h1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+  margin-left: 15px;
+}
+
+.sidebarTopOptions__right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.sidebarTopOptions__right > h1 {
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+}
+
+.sidebarTop__middle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.sidebarTopMiddle__options {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.sidebarMiddleOptions__left {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.sidebarTop__middle {
+  flex: 0.4;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.sidebarTop__bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  flex: 0.3;
+}
+
+.sidebarTopBottom__options {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.sidebarTopBottom__options > h1 {
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+}
+
+.sidebar__center {
+  height: 70px;
+  width: 300px;
+  border: 1px solid lightgray;
+  flex: 1;
+  margin-top: 20px;
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__bottom {
+  height: 200px;
+  width: 300px;
+  border: 1px solid lightgray;
+  padding: 15px;
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sidebarBottom__options {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarBottomBottom__options {
+  display: flex;
+  margin-top: 15px;
+}

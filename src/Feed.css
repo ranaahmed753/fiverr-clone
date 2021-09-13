@@ -1,0 +1,130 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+}
+
+.feed__top {
+  height: 60px;
+  width: 90%;
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.feedTop__options {
+  border: 1px solid lightgray;
+  margin-left: auto;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex: 0.4;
+}
+
+.feed__middle {
+  display: flex;
+  margin-top: 50px;
+  width: 90%;
+}
+
+.feed__middle > h1 {
+  font-weight: 400;
+  font-size: 15px;
+  flex: 0.2;
+}
+
+.feedMiddle__card {
+  width: 90%;
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 10px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+}
+
+.feedMiddle__card > h1 {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px;
+  color: #404145;
+}
+
+.feedMiddle__card > p {
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.bottom__card {
+  width: 90%;
+  border: 1px solid lightgray;
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 3px;
+}
+
+.bottomCard__options {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin-top: 15px;
+}
+
+.bottom__card > h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #404145;
+}
+
+.bottomCard__option {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 15px;
+}
+
+.bottomCard__option > button {
+  cursor: pointer;
+  padding: 10px;
+  color: #5ba6f1;
+  background-color: white;
+  border-width: 0;
+  border: 1px solid #5ba6f1;
+  border-radius: 3px;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+.bottomCard__option > h1 {
+  color: #404145;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.bottomCard__option > p {
+  margin-top: 20px;
+  color: gray;
+}
+
+.bottomCard__option > .MuiSvgIcon-root {
+  height: 40px;
+  width: 40px;
+  color: #a6eaca;
+}
+
+.bottomCard__option > button:hover {
+  background-color: #5ba6f1;
+  color: white;
+}
