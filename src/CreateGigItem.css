@@ -1,0 +1,34 @@
+.createGig {
+  background-color: white;
+  height: 320px;
+  width: 320px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.createGig > .add__icon {
+  background-color: #78cdd2;
+  border-radius: 999px;
+  height: 90px;
+  width: 90px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.createGig > .add__icon > .addIcon {
+  color: white;
+  height: 40px;
+  width: 40px;
+}
+.createGig > h3 {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}

@@ -1,0 +1,61 @@
+.gigItem {
+  background-color: white;
+  height: 320px;
+  width: 320px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+.gigItem > .gigItem__top > img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+.gigItem > .gigItem__top > h1 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+}
+.gigItem > .gigItem__top > h1:hover {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  color: #41bf73;
+  cursor: pointer;
+  padding: 10px;
+}
+.gigItem > .gigItem__bottom {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+.gigItem > .gigItem__bottom > .gigItemBottom__left {
+  align-items: center;
+}
+.gigItem > .gigItem__bottom > .gigItemBottom__left > .more__icon {
+  color: lightgray;
+}
+.gigItem > .gigItem__bottom > .gigItemBottom__left > .more__icon:hover {
+  color: gray;
+  cursor: pointer;
+}
+.gigItem > .gigItem__bottom > .gigItemBottom__right {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+.gigItem > .gigItem__bottom > .gigItemBottom__right > h3 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #41bf73;
+  cursor: pointer;
+  padding-bottom: 5px;
+}

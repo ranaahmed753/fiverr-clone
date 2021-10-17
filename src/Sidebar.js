@@ -4,6 +4,7 @@ import './Sidebar.css';
 import StarIcon from '@material-ui/icons/Star';
 import HelpIcon from '@material-ui/icons/Help';
 
+
 const Sidebar = () => {
     return (
         <div className='sidebar'> 

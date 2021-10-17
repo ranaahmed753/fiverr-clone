@@ -1,0 +1,62 @@
+.button {
+}
+.button > .custom__button {
+  padding: 7px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 15px;
+  color: #62646a;
+  background-color: white;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-width: 1px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.button > .button__resize {
+  padding: 7px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 15px;
+  color: #62646a;
+  background-color: white;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-width: 1px;
+  margin-top: 15px;
+  font-weight: bold;
+  width: 300px;
+}
+.button > .button__resize:hover {
+  background-color: #7a7d85;
+  color: white;
+  font-weight: bold;
+  padding: 7px;
+  cursor: pointer;
+  font-family: Roboto;
+  border: 1px solid #7a7d85;
+  font-size: 15px;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  width: 300px;
+}
+.button > .custom__button:hover {
+  background-color: #7a7d85;
+  color: white;
+  font-weight: bold;
+  padding: 7px;
+  cursor: pointer;
+  font-family: Roboto;
+  border: 1px solid #7a7d85;
+  font-size: 15px;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-weight: bold;
+}

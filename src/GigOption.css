@@ -1,0 +1,59 @@
+.gigOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  background-color: white;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+}
+.gigOption:hover {
+  background-color: lightgray;
+}
+.gigOption > .gigOption__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.gigOption > .gigOption__left > input {
+  height: 17px;
+  width: 17px;
+  color: gray;
+  cursor: pointer;
+}
+.gigOption > .gigOption__middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+.gigOption > .gigOption__middle > img {
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.gigOption > .gigOption__middle > h3 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: gray;
+  padding: 10px;
+}
+.gigOption > .gigOption__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  margin-left: 35%;
+}
+.gigOption > .gigOption__right > h3 {
+  padding: 5px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
